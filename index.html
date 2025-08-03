@@ -2,38 +2,89 @@
 <html>
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>WEB DEVELOPMENT</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>My Portfolio 👨🏻‍💻</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <link rel="stylesheet" href="style.css"></link>
-<header>WEB DEVELOPMENT
-  <nav>
-    <ul>
-      <li><a href="index.html">Home |</a></li>
-      <li><a href="form.html">Enroll Now|</a> </li>
-      <li><a href="https://www.instagram.com/harsath_07?igsh=MW12NTJyZ3U4MTcwaw==">Instagram</a>|</li>
-    </ul>
-  </nav>
-</header>
-<div class="flex-container">
-  <div class="box">
-    <h2>Front-end</h2>
-    <img src="download.png">
-    <p><b>The "front end" refers to the user interface of a website or application, encompassing everything a user directly sees and interacts with.</b> </p>
-  </div>
-  <div class="box">
-    <h2>Back-end</h2>
-    <img src="6213731.png">
-    <p><b>The backend, also known as the server-side, is the part of a website or application that users don't directly see or interact with.</b> </p> 
- </div>
-  <div class="box">
-    <h2>Database</h2>
-    <img src="9850812.png">
-    <p><b>A database is an organized collection of data, typically stored electronically, that can be easily accessed, managed, and updated.</b> </p>
-  </div>
-</div>
+  <header>
+    <nav>
+      <h1 class="logo">Web Developer Portfolio
+        
+      </h1>
+      <ul class="items">
+        <li><a href="#about">About me |  </a></li>
+        <li><a href="#ptoject">Project | </a></li>
+        <li><a href="#contact">Contact me | </a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <img src="552R4925.jpg" class="profile-image">
+      <h2 class="animated-text">Hi,I’m Harsath👨‍💻</h2>
+      <p>A Front-End Web Developer</p>
+      <a href="https://harsath3110.github.io/Profile/" class="btn">View Projects</a>
+    </section>
+    <section class="about">
+      <h2>About me</h2>
+      <p><b>I am passionate about building responsive and user-friendly websites using HTML,CSS and Javascript.</b></p>
+   </section>
+    <section class="projects">
+      <section>
+        <h2>Interactive UI effects</h2>
+        <div class="flip-card-container">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <h3>About Web Development</h3>
+              <img src="Screenshot_20250710-191549~2.png" >
+            </div> 
+            <div class="flip-card-back">
+              <h3>Things Used</h3>
+              <p>HTML,CSS</p>
+                <a href="https://harsath3110.github.io/Profile/" class="btn">View Code</a>
+              </div> 
+          </div>
+        </div>
+       </div>
+        </section>
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="Screenshot_20250710-191549~2.png">
+        <h3>About Web Development</h3>
+        <p>Built using HTML,CSS and flexbox</p>
+      </div>
+    </section>
+    <section class="slider-section">
+      <h2>Project Slider</h2>
+      <div class="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3" >
+        <div class="slides">
+          <div class="slide1">
+            <img src="Screenshot_20250710-191549~2.png" width=800px >
+          </div>
+          <div class ="slide2">
+            <img src="IMG-20250718-WA0000~2.jpg" width=750px>
+         </div>
+          <div class="slide3">
+            <img src="Screenshot_20250719-080927~2.png" width=700px >
+          </div>
+         <div class="navigation">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      </div>
+     </div>
+    </section>
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: mail2harsath@gmail.com</p>
+      <p>Phone: +91 90256 48066</p>
+    </section>
 <footer>
-  ©2025 HARSATH S.All rights reserved
+    <p>© 2025 Harsath. All rights reserved.</p>
 </footer>
-</body>
+   </header>
+ </body>
 </html>
